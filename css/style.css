@@ -1,0 +1,277 @@
+/*---------------------*/
+/*----- all ---------*/
+/*---------------------*/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 ,h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    color: #555;
+}
+
+h1, h2 ,h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#news, #interview, #business, #access {
+    padding: 60px 0;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.more {
+    border: 2px solid;
+    padding: 8px 20px;
+    color: #0476ef;
+    background-color: #fff;
+    font-weight: bold;
+    display: inline-block;
+}
+.more:hover {
+    color: #fff;
+    background-color: #0476ef;
+}
+
+th {
+    font-weight: normal;
+}
+/*---------------------*/
+/*----- header ---------*/
+/*---------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    line-height: 70px;
+}
+
+
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.header-nav li {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 35px;
+}
+.header-nav li a:hover {
+    color:skyblue;
+}
+
+/*---------------------*/
+/*----- eyeycatch ---------*/
+/*---------------------*/
+
+#eyecatch {
+    background-image: url(../img/bg1.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catch-copy {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/*---------------------*/
+/*----- news ---------*/
+/*---------------------*/
+
+.news-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-wrap li {
+    margin-top: 10px;
+}
+.news-wrap li:first-child {
+    margin-top: 0;
+}
+
+.news-wrap li a:hover {
+    text-decoration: underline;
+}
+
+.news-wrap li span {
+    margin-right: 20px;
+}
+
+/*---------------------*/
+/*----- interview ---------*/
+/*---------------------*/
+
+#interview {
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+}
+
+.interview-wrap {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.interview-wrap p {
+    margin-top: 60px;
+}
+
+#interview .more {
+    margin-top: 25px;
+}
+
+/*---------------------*/
+/*----- business ---------*/
+/*---------------------*/
+
+.business-item {
+    background-color: #eee;
+    box-shadow: 3px 3px 10px;
+    width: 250px;
+    padding: 20px 35px 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#business .wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#business span {
+    display: block;
+    font-size: 80px;
+    color:#0476ef;
+}
+
+.business-item h3{
+    font-size: 18px;
+}
+
+.business-item p {
+    margin-top: 10px;
+}
+
+/*---------------------*/
+/*------ company ---------*/
+/*---------------------*/
+
+.company-title {
+    font-size: 25px;
+}
+
+.company-info {
+    background-image: url(../img/bg4.jpg);
+    background-size: cover;
+}
+
+.recrute {
+    background-image: url(../img/bg5.jpg);
+    background-size: cover;
+}
+
+.company-info, .recrute {
+    height: 300px;
+    width: 50%;
+    position: relative;
+}
+
+#company .more {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.company-filter, .recrute-filter {
+    height: 300px;
+    padding: 20px 0 0 30px;
+    box-sizing: border-box;
+}
+
+#company {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-filter {
+    background-color: rgba(129,244,255,0.2);
+}
+
+.recrute-filter {
+    background-color: rgba(255,114,159,0.2);
+}
+
+/*---------------------*/
+/*------ access ---------*/
+/*---------------------*/
+
+#access .wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.map {
+    border: 0;
+}
+
+.address {
+    font-size: 14px;
+}
+
+.map, .address {
+    width: 400px;
+    height: 300px;
+}
+
+#access { 
+    background-color: #eee;
+}
+
+.address th {
+    width: 25%;
+}
+
+/*---------------------*/
+/*------ footer ---------*/
+/*---------------------*/
+
+footer {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
